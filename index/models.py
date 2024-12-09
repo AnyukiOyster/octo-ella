@@ -14,7 +14,7 @@ class Product(models.Model):
     product_desc = models.TextField()
     product_price = models.FloatField()
     product_count = models.IntegerField()
-    product_photo = models.ImageField()
+    product_photo = models.ImageField(upload_to='media')
     product_category = models.ForeignKey(Category, on_delete=models.CASCADE)
     added_date = models.DateTimeField(auto_now_add=True)
 
