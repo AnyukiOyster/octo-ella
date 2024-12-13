@@ -7,7 +7,7 @@ from django.contrib.auth.models import User
 import telebot
 
 #Создаём объект бота
-bot = telebot.TeleBot('8164538734:AAEtE9H4ex65jGQb8W-U6cOcFhuzvLiDBIg')
+bot = telebot.TeleBot('8164538734:AAEtE9H4ex65jGQb8W-U6cOcLiDBIg')
 
 #Главная страница
 def home_page(request):
